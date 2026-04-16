@@ -14,7 +14,7 @@ def double(l: list[Number]):
 if __name__ == "__main__":
     l = [3, 4, 1, 2]
     double(l)
-    assert l == [6, 8, 1, 4]
+    assert l == [6, 8, 2, 4] # There supposed to be 2 insted of 1
 
     l = [2, 2]
     double(l)
