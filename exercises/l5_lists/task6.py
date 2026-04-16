@@ -16,6 +16,6 @@ if __name__ == "__main__":
     assert fill(1) == [1]
 
     assert fill(3, True) == [3, 2, 1]
-    assert fill(0, True) == [] # You need return list not 0
-    assert fill(4, True) == [4, 3, 2, 1] # Didn't have True for reverse list
+    assert fill(0, True) == []
+    assert fill(4, True) == [4, 3, 2, 1]
     assert fill(1) == [1]
